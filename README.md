@@ -56,7 +56,17 @@ and also plot the feature importance chart.
 I download the latest 3 months of BTC data, calculate technical indicators, and use the trained model to predict if BTC will go up in the next 10 days.
 
 Example output:
-```bash
-Prediction: BTC may go up in the next 10 days (probability: 72.4%)
-Suggestion: Consider buying in
+`Prediction: BTC may go up in the next 10 days (probability: 72.4%)`
+`Suggestion: Consider buying in`
 
+
+# Acknowledgements
+
+This was supported by **telunyang**.
+
+I also referenced the following open-source resources during development:
+
+- [telunyang/python_machine_learning](https://github.com/telunyang/python_machine_learning) 
+- [TA-Lib documentation](https://technical-analysis-library-in-python.readthedocs.io/)
+- [Scikit-learn official docs](https://scikit-learn.org)
+- [yFinance API](https://pypi.org/project/yfinance/)
